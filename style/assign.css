@@ -74,20 +74,22 @@ nav{
 }
 
 .off-btn{
-        color: #FFFFFF;
-    padding: 16.5px 16px 16.5px 46px;
-    border: 1px solid #FFFFFF;
+
+    background-color: #469165;
+    color: #FFFFFF;
+    padding: 12.5px 16px;
+    border: 1px solid white;
     border-radius: 4px;
     margin: 24px 0px;
     font-size: 16px;
     font-weight: 600px;
     background-color: transparent;
- margin-left: 16px;
+ 
     
 
 }
 .btn-1{
-    padding: 8px 12px 8px 34px;
+    padding: 8px 12px 8px 6px;
     border-radius: 1000px;
     color: #469165;
     background-color: #FFFFFF;
@@ -112,6 +114,7 @@ nav{
     font-weight: 400px;
     line-height: 24px;
     margin-bottom: 32px;
+    color: #FFFFFF;
  }
  
  .header-1{
@@ -168,6 +171,8 @@ nav{
     border-radius: 50%;
     max-width: 60px;
     margin-bottom: 16px;
+    background-color: #F95555;
+    padding: 15px 16px;
 }
 .note-card h3{
     font-weight: 600px;
@@ -232,6 +237,8 @@ nav{
     line-height: 20px;
     margin-bottom: 40px;
 }
+
+
 .list {
    
     align-items: center;
@@ -239,7 +246,13 @@ nav{
     line-height: 20px;
     font-weight: 400px;
     font-size: 16px;
+    max-width: 700px;
+    margin-bottom: 16px;
     
+}
+.list li a{
+    display: inline;
+
 }
 
 
@@ -297,6 +310,7 @@ nav{
     justify-content: space-between;
     gap: 790px;
     max-width: 1360px;
+    height: 64px;
     align-items: center;
 
  }
@@ -308,14 +322,17 @@ nav{
     max-width: 220px;
     height: 64px;
  }
- .head h5{
+ .head p{
     font-weight: 400px;
     font-size: 20px;
+    max-width: 113px;
     color: #FFFFFF;
     margin-bottom: 16px;
+    line-height: 28px;
  }
  .icons{
     gap: 16px;
+    border-radius: 50%;
      
  }
 
