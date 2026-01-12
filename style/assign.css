@@ -32,6 +32,10 @@ header{
     margin: 24px 0px;
     font-size: 16px;
     font-weight: 600px;
+    
+}
+.btn:hover{
+    background-color: #F95555;
 }
 
 nav{
@@ -53,6 +57,10 @@ nav{
 .list-Section a {
     text-decoration: none;
      color: #000000;
+}
+.list-Section a:hover{
+    background-color: #F95555;
+    
 }
 
 
@@ -88,6 +96,9 @@ nav{
     
 
 }
+.off-btn:hover{
+    background-color: #F95555;
+}
 .btn-1{
     padding: 8px 12px 8px 6px;
     border-radius: 1000px;
@@ -96,6 +107,7 @@ nav{
     border: none;
     margin-bottom: 16px;
 }
+
 
  .hero-content{
     max-width: 1360px;
